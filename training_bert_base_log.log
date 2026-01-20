@@ -1,0 +1,84 @@
+8.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.8s 3 0.00s - to python to disable frozen modules.
+8.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.4s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.4s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.4s 7 0.00s - to python to disable frozen modules.
+9.4s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.8s 9 Running inside Kaggle: True
+10.8s 10 Working directory: /kaggle/working
+10.8s 11 Python sources available under: /kaggle/working/source
+10.8s 12 Dataset path: /kaggle/input/pandora-big5-train/pandora_train.csv
+25.0s 13 Selected config: bert-base
+25.0s 14 Training mode: multi_trait | targets: ['ext', 'neu', 'agr', 'con', 'ope']
+25.0s 15 Run suffix (log folder): bert_base_multi
+25.4s 16 Preparing local DataLoaders...
+35.7s 17 Loaded 192420 rows from /kaggle/input/pandora-big5-train/pandora_train.csv (sample fraction=0.1)
+35.7s 18 Split sizes -> train: 107755, val: 26939, test: 57726
+158.3s 19 DataLoaders ready.
+158.5s 20 Checkpoint configured: /kaggle/working/notebook_models/bert-base_best.pth
+162.3s 21 2026-01-19 11:09:48.923870: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+162.3s 22 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+162.3s 23 E0000 00:00:1768820989.113172      25 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+162.3s 24 E0000 00:00:1768820989.170167      25 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+162.3s 25 W0000 00:00:1768820989.628683      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.3s 26 W0000 00:00:1768820989.628739      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.3s 27 W0000 00:00:1768820989.628742      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.3s 28 W0000 00:00:1768820989.628744      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 29 2026-01-19 11:09:48.923870: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+162.5s 30 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+162.5s 31 E0000 00:00:1768820989.113172      25 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+162.5s 32 E0000 00:00:1768820989.170167      25 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+162.5s 33 W0000 00:00:1768820989.628683      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 34 W0000 00:00:1768820989.628739      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 35 W0000 00:00:1768820989.628742      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 36 W0000 00:00:1768820989.628744      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 37 
+162.5s 38 2026-01-19 11:09:48.923870: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+162.5s 39 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+162.5s 40 E0000 00:00:1768820989.113172      25 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+162.5s 41 E0000 00:00:1768820989.170167      25 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+162.5s 42 W0000 00:00:1768820989.628683      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 43 W0000 00:00:1768820989.628739      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 44 W0000 00:00:1768820989.628742      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+162.5s 45 W0000 00:00:1768820989.628744      25 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+181.1s 46 Checkpoint /kaggle/working/notebook_models/bert-base_best.pth not found; starting from scratch.
+841.2s 47 Epoch 1: Train Loss 0.0071
+896.1s 48 Epoch 1: Val Loss 0.0874
+897.4s 49 Saved best checkpoint to /kaggle/working/notebook_models/bert-base_best.pth
+1556.5s 50 Epoch 2: Train Loss 0.0056
+1611.3s 51 Epoch 2: Val Loss 0.0863
+1613.7s 52 Saved best checkpoint to /kaggle/working/notebook_models/bert-base_best.pth
+2271.3s 53 Epoch 3: Train Loss 0.0055
+2325.9s 54 Epoch 3: Val Loss 0.0853
+2328.2s 55 Saved best checkpoint to /kaggle/working/notebook_models/bert-base_best.pth
+2986.2s 56 Epoch 4: Train Loss 0.0054
+3040.8s 57 Epoch 4: Val Loss 0.0849
+3043.1s 58 Saved best checkpoint to /kaggle/working/notebook_models/bert-base_best.pth
+3701.1s 59 Epoch 5: Train Loss 0.0053
+3755.7s 60 Epoch 5: Val Loss 0.0840
+3757.9s 61 Saved best checkpoint to /kaggle/working/notebook_models/bert-base_best.pth
+4415.5s 62 Epoch 6: Train Loss 0.0052
+4470.1s 63 Epoch 6: Val Loss 0.0837
+4472.3s 64 Saved best checkpoint to /kaggle/working/notebook_models/bert-base_best.pth
+5129.7s 65 Epoch 7: Train Loss 0.0050
+5184.0s 66 Epoch 7: Val Loss 0.0841
+5841.2s 67 Epoch 8: Train Loss 0.0048
+5895.8s 68 Epoch 8: Val Loss 0.0846
+5895.8s 69 Early stopping triggered
+5897.1s 70 Saved final checkpoint to /kaggle/working/notebook_models/bert-base_final.pth
+6014.5s 71 Saved metrics to /kaggle/working/notebook_logs/bert_base_multi/metrics_20260119_124721.csv
+6014.5s 72 Saved correlation matrices to /kaggle/working/notebook_logs/bert_base_multi/corr_predictions_20260119_124721.csv / /kaggle/working/notebook_logs/bert_base_multi/corr_targets_20260119_124721.csv
+6020.2s 73 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+6020.2s 74 cells[i][c] = re.sub('\\\\\|', '|', cell)
+6020.4s 75 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+6020.4s 76 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+6021.0s 77 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+6021.0s 78 warn(
+6021.0s 79 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+6021.4s 80 [NbConvertApp] Writing 295448 bytes to __notebook__.ipynb
+6023.7s 81 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+6023.7s 82 warn(
+6023.8s 83 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+6024.6s 84 [NbConvertApp] Writing 565392 bytes to __results__.html

@@ -1,0 +1,74 @@
+8.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.8s 3 0.00s - to python to disable frozen modules.
+8.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.5s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.5s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.5s 7 0.00s - to python to disable frozen modules.
+9.5s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+23.1s 9 Running inside Kaggle: True
+23.1s 10 Working directory: /kaggle/working
+23.1s 11 Python sources available under: /kaggle/working/source
+23.1s 12 Dataset path: /kaggle/input/pandora-big5-train/pandora_train.csv
+38.5s 13 Selected config: roberta-base
+38.5s 14 Training mode: multi_trait | targets: ['ext', 'neu', 'agr', 'con', 'ope']
+38.5s 15 Run suffix (log folder): roberta_base_multi
+38.9s 16 Preparing local DataLoaders...
+49.0s 17 Loaded 192420 rows from /kaggle/input/pandora-big5-train/pandora_train.csv (sample fraction=0.1)
+49.0s 18 Split sizes -> train: 107755, val: 26939, test: 57726
+146.5s 19 DataLoaders ready.
+146.7s 20 Checkpoint configured: /kaggle/working/notebook_models/roberta-base_best.pth
+150.3s 21 2026-01-19 09:40:07.488798: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+150.3s 22 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+150.3s 23 E0000 00:00:1768815607.681115      24 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+150.3s 24 E0000 00:00:1768815607.739842      24 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+150.3s 25 W0000 00:00:1768815608.225160      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.3s 26 W0000 00:00:1768815608.225220      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.3s 27 W0000 00:00:1768815608.225224      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.3s 28 W0000 00:00:1768815608.225226      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 29 2026-01-19 09:40:07.488798: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+150.5s 30 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+150.5s 31 E0000 00:00:1768815607.681115      24 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+150.5s 32 E0000 00:00:1768815607.739842      24 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+150.5s 33 W0000 00:00:1768815608.225160      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 34 W0000 00:00:1768815608.225220      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 35 W0000 00:00:1768815608.225224      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 36 W0000 00:00:1768815608.225226      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 37 
+150.5s 38 2026-01-19 09:40:07.488798: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+150.5s 39 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+150.5s 40 E0000 00:00:1768815607.681115      24 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+150.5s 41 E0000 00:00:1768815607.739842      24 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+150.5s 42 W0000 00:00:1768815608.225160      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 43 W0000 00:00:1768815608.225220      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 44 W0000 00:00:1768815608.225224      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+150.5s 45 W0000 00:00:1768815608.225226      24 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+166.0s 46 Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+166.0s 47 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+166.0s 48 
+166.0s 49 Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+166.0s 50 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+167.6s 51 Loaded checkpoint from /kaggle/working/notebook_models/roberta-base_best.pth (resuming at epoch 7)
+841.5s 52 Epoch 7: Train Loss 0.0049
+898.6s 53 Epoch 7: Val Loss 0.0823
+901.6s 54 Saved best checkpoint to /kaggle/working/notebook_models/roberta-base_best.pth
+1572.3s 55 Epoch 8: Train Loss 0.0048
+1628.5s 56 Epoch 8: Val Loss 0.0838
+2300.1s 57 Epoch 9: Train Loss 0.0046
+2357.6s 58 Epoch 9: Val Loss 0.0843
+2357.6s 59 Early stopping triggered
+2359.4s 60 Saved final checkpoint to /kaggle/working/notebook_models/roberta-base_final.pth
+2483.5s 61 Saved metrics to /kaggle/working/notebook_logs/roberta_base_multi/metrics_20260119_101901.csv
+2483.5s 62 Saved correlation matrices to /kaggle/working/notebook_logs/roberta_base_multi/corr_predictions_20260119_101901.csv / /kaggle/working/notebook_logs/roberta_base_multi/corr_targets_20260119_101901.csv
+2489.4s 63 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+2489.4s 64 cells[i][c] = re.sub('\\\\\|', '|', cell)
+2489.6s 65 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+2489.6s 66 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+2490.3s 67 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2490.3s 68 warn(
+2490.3s 69 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+2490.7s 70 [NbConvertApp] Writing 190401 bytes to __notebook__.ipynb
+2493.4s 71 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2493.4s 72 warn(
+2493.4s 73 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+2494.4s 74 [NbConvertApp] Writing 480714 bytes to __results__.html
