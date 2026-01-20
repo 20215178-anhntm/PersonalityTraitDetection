@@ -1,0 +1,29 @@
+Input ids are automatically padded from 2088 to 2112 to be a multiple of `config.block_size`: 64
+Input ids are automatically padded from 2136 to 2176 to be a multiple of `config.block_size`: 64
+Classification Report for N/S:
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+           N       0.86      1.00      0.92      1489
+           S       0.00      0.00      0.00       246
+
+    accuracy                           0.86      1735
+   macro avg       0.43      0.50      0.46      1735
+weighted avg       0.74      0.86      0.79      1735
+Some weights of BigBirdForSequenceClassification were not initialized from the model checkpoint at google/bigbird-roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Classification Report for T/F:
+              precision    recall  f1-score   support
+
+           T       0.61      0.88      0.72       798
+           F       0.83      0.51      0.63       937
+
+    accuracy                           0.68      1735
+   macro avg       0.72      0.70      0.68      1735
+weighted avg       0.73      0.68      0.67      1735

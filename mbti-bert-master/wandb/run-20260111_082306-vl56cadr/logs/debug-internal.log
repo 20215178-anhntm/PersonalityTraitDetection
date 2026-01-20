@@ -1,0 +1,11 @@
+{"time":"2026-01-11T08:23:07.099335528Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-11T08:23:07.305329647Z","level":"INFO","msg":"stream: created new stream","id":"vl56cadr"}
+{"time":"2026-01-11T08:23:07.307186312Z","level":"INFO","msg":"handler: started","stream_id":"vl56cadr"}
+{"time":"2026-01-11T08:23:07.316501899Z","level":"INFO","msg":"stream: started","id":"vl56cadr"}
+{"time":"2026-01-11T08:23:07.316535589Z","level":"INFO","msg":"writer: started","stream_id":"vl56cadr"}
+{"time":"2026-01-11T08:23:07.31656612Z","level":"INFO","msg":"sender: started","stream_id":"vl56cadr"}
+{"time":"2026-01-11T09:24:08.482771817Z","level":"INFO","msg":"stream: closing","id":"vl56cadr"}
+{"time":"2026-01-11T09:24:08.867030925Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-11T09:24:08.978666566Z","level":"INFO","msg":"handler: closed","stream_id":"vl56cadr"}
+{"time":"2026-01-11T09:24:08.981952862Z","level":"INFO","msg":"sender: closed","stream_id":"vl56cadr"}
+{"time":"2026-01-11T09:24:08.982375452Z","level":"INFO","msg":"stream: closed","id":"vl56cadr"}

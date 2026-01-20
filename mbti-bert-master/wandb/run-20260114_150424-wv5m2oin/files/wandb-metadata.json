@@ -1,0 +1,36 @@
+{
+  "os":  "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-01-14T15:04:24.125754Z",
+  "program":  "B%E1%BA%A3n%20sao%20c%E1%BB%A7a%20Predicting_MBTI_using_BERT_algorithm.ipynb",
+  "codePath":  "B%E1%BA%A3n%20sao%20c%E1%BB%A7a%20Predicting_MBTI_using_BERT_algorithm.ipynb",
+  "email":  "yeuhaykoyeu262@gmail.com",
+  "root":  "/content/drive/MyDrive/mbti-bert-master",
+  "host":  "d77463678445",
+  "executable":  "/usr/bin/python3",
+  "colab":  "https://colab.research.google.com/notebook#fileId=1aWo5WqPbQ52F6q66HS8Vf5KsX8YrWgkw",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "42647547904"
+    }
+  },
+  "memory":  {
+    "total":  "13605851136"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-cd49cc7a-d54c-2cef-8e7d-478765ee445f"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "wrk9dh0smu6jybp22ewyaomec3ur8agu"
+}

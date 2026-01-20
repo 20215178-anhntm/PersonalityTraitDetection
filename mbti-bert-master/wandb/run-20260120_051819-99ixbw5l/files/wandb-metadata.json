@@ -1,0 +1,36 @@
+{
+  "os":  "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-01-20T05:18:19.296355Z",
+  "program":  "B%E1%BA%A3n%20sao%20c%E1%BB%A7a%20B%E1%BA%A3n%20sao%20c%E1%BB%A7a%20BigBird.ipynb",
+  "codePath":  "B%E1%BA%A3n%20sao%20c%E1%BB%A7a%20B%E1%BA%A3n%20sao%20c%E1%BB%A7a%20BigBird.ipynb",
+  "email":  "ayukhanh2@gmail.com",
+  "root":  "/content/drive/MyDrive/mbti-bert-master",
+  "host":  "297828c75971",
+  "executable":  "/usr/bin/python3",
+  "colab":  "https://colab.research.google.com/notebook#fileId=1qhxZHigT34FQHjJTVJe2t9p1m8Z5g-bs",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "43181985792"
+    }
+  },
+  "memory":  {
+    "total":  "13605851136"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-2d9f0a32-5c4d-fea7-5829-7731e10f906b"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "uwiu3eqkynlfhgo496ln6bhtkj5f8kpt"
+}

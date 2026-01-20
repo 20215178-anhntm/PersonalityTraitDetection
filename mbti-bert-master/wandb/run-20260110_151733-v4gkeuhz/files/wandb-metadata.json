@@ -1,0 +1,36 @@
+{
+  "os":  "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-01-10T15:17:33.926539Z",
+  "program":  "RobeTA%20long%20text",
+  "codePath":  "RobeTA%20long%20text",
+  "email":  "yeuhaykoyeu262@gmail.com",
+  "root":  "/content/drive/MyDrive/mbti-bert-master",
+  "host":  "aabf288e5ba2",
+  "executable":  "/usr/bin/python3",
+  "colab":  "https://colab.research.google.com/notebook#fileId=1T0S4s7DFOFyxEgBgj2Lrv6TS3lVHvH6d",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "42671144960"
+    }
+  },
+  "memory":  {
+    "total":  "13605851136"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-6138d6cc-4d27-ac93-4b9c-fe8d1680efb1"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "k29r8f0f1ccjwutxl7lr8dp6fatb435a"
+}
