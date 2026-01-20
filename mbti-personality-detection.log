@@ -1,0 +1,230 @@
+8.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.9s 3 0.00s - to python to disable frozen modules.
+8.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.7s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.7s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.7s 7 0.00s - to python to disable frozen modules.
+9.7s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+21.4s 9 /kaggle/input/mbti-type/mbti_1.csv
+22.5s 10 /tmp/ipykernel_17/291468830.py:11: DeprecationWarning: Use dataset_load() instead of load_dataset(). load_dataset() will be removed in a future version.
+22.5s 11 df = kagglehub.load_dataset(
+22.5s 12 
+22.5s 13 /tmp/ipykernel_17/291468830.py:11: DeprecationWarning: Use dataset_load() instead of load_dataset(). load_dataset() will be removed in a future version.
+22.5s 14 df = kagglehub.load_dataset(
+29.8s 15 /tmp/ipykernel_17/3280410858.py:2: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+29.8s 16 df['label'] = df.type.replace(label_rep)
+29.8s 17 
+29.8s 18 /tmp/ipykernel_17/3280410858.py:2: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+29.8s 19 df['label'] = df.type.replace(label_rep)
+60.9s 20 SVM Performance
+60.9s 21 ------------------------------
+60.9s 22 Accuracy        : 0.6438
+60.9s 23 Macro Precision : 0.5765
+60.9s 24 Macro Recall    : 0.5249
+60.9s 25 Macro F1-score  : 0.5336
+60.9s 26 
+60.9s 27 SVM Classification Report
+60.9s 28 ------------------------------
+60.9s 29 precision    recall  f1-score   support
+60.9s 30 
+60.9s 31 0       0.68      0.67      0.67       294
+60.9s 32 1       0.58      0.60      0.59       137
+60.9s 33 2       0.70      0.66      0.68       261
+60.9s 34 3       0.64      0.61      0.63       218
+60.9s 35 4       0.53      0.54      0.54        46
+60.9s 36 5       0.53      0.50      0.51        38
+60.9s 37 6       0.74      0.74      0.74       366
+60.9s 38 7       0.61      0.64      0.63       135
+60.9s 39 8       0.43      0.48      0.45        54
+60.9s 40 9       0.57      0.70      0.63        67
+60.9s 41 10       0.53      0.58      0.55        33
+60.9s 42 11       0.55      0.59      0.56        41
+60.9s 43 12       0.50      0.50      0.50        18
+60.9s 44 13       0.00      0.00      0.00        10
+60.9s 45 14       0.67      0.25      0.36         8
+60.9s 46 15       1.00      0.33      0.50         9
+60.9s 47 
+60.9s 48 accuracy                           0.64      1735
+60.9s 49 macro avg       0.58      0.52      0.53      1735
+60.9s 50 weighted avg       0.64      0.64      0.64      1735
+60.9s 51 
+88.1s 52 Random Forest Performance
+88.1s 53 ------------------------------
+88.1s 54 Accuracy        : 0.6173
+88.1s 55 Macro Precision : 0.6154
+88.1s 56 Macro Recall    : 0.3660
+88.1s 57 Macro F1-score  : 0.4069
+88.1s 58 
+88.1s 59 Random Forest Classification Report
+88.1s 60 ------------------------------
+88.1s 61 precision    recall  f1-score   support
+88.1s 62 
+88.1s 63 0       0.62      0.72      0.66       294
+88.1s 64 1       0.71      0.45      0.55       137
+88.1s 65 2       0.67      0.71      0.69       261
+88.1s 66 3       0.74      0.59      0.66       218
+88.1s 67 4       0.72      0.39      0.51        46
+88.1s 68 5       1.00      0.08      0.15        38
+88.1s 69 6       0.50      0.89      0.64       366
+88.1s 70 7       0.73      0.44      0.55       135
+88.1s 71 8       0.77      0.19      0.30        54
+88.1s 72 9       0.86      0.63      0.72        67
+88.1s 73 10       0.82      0.42      0.56        33
+88.1s 74 11       0.71      0.29      0.41        41
+88.1s 75 12       1.00      0.06      0.11        18
+88.1s 76 13       0.00      0.00      0.00        10
+88.1s 77 14       0.00      0.00      0.00         8
+88.1s 78 15       0.00      0.00      0.00         9
+88.1s 79 
+88.1s 80 accuracy                           0.62      1735
+88.1s 81 macro avg       0.62      0.37      0.41      1735
+88.1s 82 weighted avg       0.66      0.62      0.60      1735
+88.1s 83 
+88.1s 84 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 85 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+88.1s 86 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 87 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+88.1s 88 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 89 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+88.1s 90 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 91 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+88.1s 92 
+88.1s 93 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 94 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+88.1s 95 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 96 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+88.1s 97 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 98 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+88.1s 99 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+88.1s 100 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1011.1s 101 XGBoost Performance
+1011.1s 102 ------------------------------
+1011.1s 103 Accuracy        : 0.6830
+1011.1s 104 Macro Precision : 0.6340
+1011.1s 105 Macro Recall    : 0.5289
+1011.1s 106 Macro F1-score  : 0.5578
+1011.1s 107 
+1011.1s 108 XGBoost Classification Report
+1011.1s 109 ------------------------------
+1011.1s 110 precision    recall  f1-score   support
+1011.1s 111 
+1011.1s 112 0       0.68      0.70      0.69       294
+1011.1s 113 1       0.67      0.64      0.66       137
+1011.1s 114 2       0.71      0.74      0.72       261
+1011.1s 115 3       0.68      0.69      0.68       218
+1011.1s 116 4       0.73      0.52      0.61        46
+1011.1s 117 5       0.65      0.58      0.61        38
+1011.1s 118 6       0.71      0.80      0.75       366
+1011.1s 119 7       0.63      0.61      0.62       135
+1011.1s 120 8       0.54      0.46      0.50        54
+1011.1s 121 9       0.74      0.75      0.74        67
+1011.1s 122 10       0.55      0.52      0.53        33
+1011.1s 123 11       0.61      0.54      0.57        41
+1011.1s 124 12       0.57      0.44      0.50        18
+1011.1s 125 13       0.00      0.00      0.00        10
+1011.1s 126 14       0.67      0.25      0.36         8
+1011.1s 127 15       1.00      0.22      0.36         9
+1011.1s 128 
+1011.1s 129 accuracy                           0.68      1735
+1011.1s 130 macro avg       0.63      0.53      0.56      1735
+1011.1s 131 weighted avg       0.68      0.68      0.68      1735
+1011.1s 132 
+1607.3s 133 /usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+1607.3s 134 warnings.warn(
+1607.3s 135 
+1607.3s 136 /usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+1607.3s 137 warnings.warn(
+1607.5s 138 LightGBM Performance
+1607.5s 139 ------------------------------
+1607.5s 140 Accuracy        : 0.6680
+1607.5s 141 Macro Precision : 0.6217
+1607.5s 142 Macro Recall    : 0.4824
+1607.5s 143 Macro F1-score  : 0.5180
+1607.5s 144 
+1607.5s 145 LightGBM Classification Report
+1607.5s 146 ------------------------------
+1607.5s 147 precision    recall  f1-score   support
+1607.5s 148 
+1607.5s 149 0       0.65      0.70      0.67       294
+1607.5s 150 1       0.64      0.63      0.63       137
+1607.5s 151 2       0.68      0.73      0.71       261
+1607.5s 152 3       0.67      0.65      0.66       218
+1607.5s 153 4       0.83      0.41      0.55        46
+1607.5s 154 5       0.81      0.45      0.58        38
+1607.5s 155 6       0.67      0.83      0.74       366
+1607.5s 156 7       0.67      0.59      0.63       135
+1607.5s 157 8       0.62      0.46      0.53        54
+1607.5s 158 9       0.73      0.69      0.71        67
+1607.5s 159 10       0.55      0.48      0.52        33
+1607.5s 160 11       0.74      0.49      0.59        41
+1607.5s 161 12       0.69      0.50      0.58        18
+1607.5s 162 13       0.00      0.00      0.00        10
+1607.5s 163 14       0.00      0.00      0.00         8
+1607.5s 164 15       1.00      0.11      0.20         9
+1607.5s 165 
+1607.5s 166 accuracy                           0.67      1735
+1607.5s 167 macro avg       0.62      0.48      0.52      1735
+1607.5s 168 weighted avg       0.67      0.67      0.66      1735
+1607.5s 169 
+1607.5s 170 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 171 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1607.5s 172 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 173 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1607.5s 174 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 175 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1607.5s 176 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 177 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1607.5s 178 
+1607.5s 179 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 180 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1607.5s 181 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 182 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1607.5s 183 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 184 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+1607.5s 185 /usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1607.5s 186 _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+3751.0s 187 
+3751.0s 188 ===== XGBoost =====
+3751.0s 189 Accuracy: 0.6835734870317003
+3751.0s 190 precision    recall  f1-score   support
+3751.0s 191 
+3751.0s 192 0     0.6811    0.6973    0.6891       294
+3751.0s 193 1     0.6466    0.6277    0.6370       137
+3751.0s 194 2     0.7011    0.7548    0.7269       261
+3751.0s 195 3     0.6759    0.6697    0.6728       218
+3751.0s 196 4     0.7097    0.4783    0.5714        46
+3751.0s 197 5     0.7188    0.6053    0.6571        38
+3751.0s 198 6     0.7021    0.8115    0.7529       366
+3751.0s 199 7     0.6667    0.6074    0.6357       135
+3751.0s 200 8     0.5789    0.4074    0.4783        54
+3751.0s 201 9     0.7286    0.7612    0.7445        67
+3751.0s 202 10     0.6000    0.5455    0.5714        33
+3751.0s 203 11     0.6111    0.5366    0.5714        41
+3751.0s 204 12     0.6667    0.5556    0.6061        18
+3751.0s 205 13     1.0000    0.1000    0.1818        10
+3751.0s 206 14     0.6667    0.2500    0.3636         8
+3751.0s 207 15     1.0000    0.2222    0.3636         9
+3751.0s 208 
+3751.0s 209 accuracy                         0.6836      1735
+3751.0s 210 macro avg     0.7096    0.5394    0.5765      1735
+3751.0s 211 weighted avg     0.6844    0.6836    0.6777      1735
+3751.0s 212 
+3755.6s 213 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+3755.6s 214 cells[i][c] = re.sub('\\\\\|', '|', cell)
+3755.8s 215 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+3755.8s 216 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+3756.6s 217 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+3756.6s 218 warn(
+3756.7s 219 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+3757.1s 220 [NbConvertApp] Writing 399218 bytes to __notebook__.ipynb
+3760.6s 221 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+3760.6s 222 warn(
+3760.6s 223 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+3761.9s 224 [NbConvertApp] Support files will be in __results___files/
+3761.9s 225 [NbConvertApp] Making directory __results___files
+3761.9s 226 [NbConvertApp] Making directory __results___files
+3761.9s 227 [NbConvertApp] Making directory __results___files
+3761.9s 228 [NbConvertApp] Making directory __results___files
+3761.9s 229 [NbConvertApp] Making directory __results___files
+3761.9s 230 [NbConvertApp] Writing 364054 bytes to __results__.html
